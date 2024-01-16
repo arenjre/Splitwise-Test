@@ -2,7 +2,7 @@
 
 ## Development
 
-### To create transaction:
+### To create transaction (post):
 
 ```sh
 http://127.0.0.1:8000/api/transactions/?type=EQUAL
@@ -36,13 +36,13 @@ None: Transaction type can be "EQUAL", "EXACT", "PERCENT" only.
 If you choose EQUAL then split_shares will 25% for each. And if you add different  split_shares it will automatically will change
 
 
-### To get all user's owes:
+### To get all user's owes (get):
 
 ```sh
 http://127.0.0.1:8000/api/outstanding-balances/
 ```
 
-### To get specific user's owes::
+### To get specific user's owes (get):
 
 ```sh
 http://127.0.0.1:8000/api/outstanding-balances/1/
